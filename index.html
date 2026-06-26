@@ -58,19 +58,20 @@
                 <div class="hero-details">
                     <div class="detail-card">
                         <h3>Languages</h3>
-                        <ul>
-                            <li><strong>Spanish</strong> — Native</li>
-                            <li><strong>English</strong> — C2 (Cambridge)</li>
-                            <li><strong>German</strong> — B2.1 (ongoing)</li>
-                        </ul>
+                        <div class="tech-tags">
+                            <span class="lang-tag">Spanish · Native</span>
+                            <span class="lang-tag">English · C2</span>
+                            <span class="lang-tag">German · B2</span>
+                        </div>
                     </div>
                     <div class="detail-card">
                         <h3>Tech Stack</h3>
                         <div class="tech-tags">
-                            <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span>
-                            <span>LangChain</span><span>LlamaIndex</span><span>OpenCV</span><span>Docker</span>
-                            <span>Hugging Face</span><span>vLLM</span><span>Git</span><span>CI/CD</span>
-                            <span>Azure</span><span>AWS</span><span>SLURM</span><span>MCP</span>
+                            <span>ML Theory</span><span>Prob. Models</span><span>Optimization</span><span>Causal Inference</span>
+                            <span>DL</span><span>CNNs</span><span>CV</span><span>RNNs</span><span>NLP</span><span>LLMs</span>
+                            <span>Time Series</span><span>Recsys</span>
+                            <span>PyTorch</span><span>Python</span><span>HF</span><span>vLLM</span>
+                            <span>Docker</span><span>CI/CD</span><span>AWS</span><span>Azure</span>
                         </div>
                     </div>
                 </div>
@@ -204,7 +205,7 @@
                                     <h3>KDD 2024 Workshop Paper</h3>
                                 </div>
                                 <p>This work was extended into my Master's thesis and later presented as a conference paper at KDD 2024 Workshop — Causal Inference and Machine Learning in Practice.</p>
-                                <div class="project-tags"><span>Causal Inference</span><span>KDD</span></div>
+                                <div class="project-tags"><span>Causal Inference</span><span>Counterfactuals</span><span>XAI</span><span>LLMs</span></div>
                             </div>
                         </div>
                     </div>
@@ -224,7 +225,7 @@
                                     <h3>Automation &amp; RPA</h3>
                                 </div>
                                 <p>Automation of internal reports for different departments fed from several data sources, and automation of internal processes (RPA).</p>
-                                <div class="project-tags"><span>RPA</span><span>Automation</span></div>
+                                <div class="project-tags"><span>Data Pipelines</span><span>Automation</span><span>Systems</span></div>
                             </div>
                             <div class="project-card">
                                 <div class="project-card-header">
@@ -234,7 +235,7 @@
                                     <h3>Internal Chatbot &amp; Demand Forecasting</h3>
                                 </div>
                                 <p>Development of AI solutions including an internal chatbot for employee training and demand forecasting models.</p>
-                                <div class="project-tags"><span>NLP</span><span>Time Series</span><span>Chatbot</span></div>
+                                <div class="project-tags"><span>NLP</span><span>Time Series</span><span>Prob. Models</span><span>DL</span></div>
                             </div>
                         </div>
                     </div>
@@ -242,7 +243,7 @@
                 </div>
             </div>
             </div>
-            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'See less':'See more'">See more</button>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
 
         <section id="education">
@@ -264,7 +265,7 @@
                                     <h3>Coursework &amp; Projects</h3>
                                 </div>
                                 <p>Repository with coursework and projects from the MSc programme.</p>
-                                <div class="project-tags"><span>Data Science</span><span>Coursework</span></div>
+                                <div class="project-tags"><span>Stat. Learning</span><span>Optimization</span><span>Prob. Models</span><span>ML Theory</span></div>
                                 <div class="paper-actions" style="margin-top:0.5rem">
                                     <a href="https://github.com/arturofredes/Master-FPDS" class="paper-btn" target="_blank" rel="noopener">
                                         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -292,7 +293,7 @@
                                     <h3>Erasmus+ — Ostravsk&aacute; Univerzita</h3>
                                 </div>
                                 <p>Introductory courses to Fuzzy Mathematics: Math. Methods for AI (6 ECTS), Fuzzy Modelling (6 ECTS)</p>
-                                <div class="project-tags"><span>Erasmus+</span><span>Fuzzy Mathematics</span></div>
+                                <div class="project-tags"><span>Fuzzy Logic</span><span>Approx. Reasoning</span><span>Math Modeling</span></div>
                             </div>
                         </div>
                     </div>
@@ -300,7 +301,7 @@
                 </div>
             </div>
             </div>
-            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'See less':'See more'">See more</button>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
 
         <section id="papers">
@@ -337,8 +338,9 @@
                     </div>
                     <div class="paper-tags">
                         <span class="paper-tag">Causal Inference</span>
-                        <span class="paper-tag">LLMs</span>
+                        <span class="paper-tag">Counterfactuals</span>
                         <span class="paper-tag">XAI</span>
+                        <span class="paper-tag">LLMs</span>
                     </div>
                 </article>
                 <div class="extra">
@@ -362,9 +364,10 @@
                         </a>
                     </div>
                     <div class="paper-tags">
-                        <span class="paper-tag">RNN</span>
-                        <span class="paper-tag">LSTM</span>
+                        <span class="paper-tag">RNNs</span>
+                        <span class="paper-tag">Dynamical Systems</span>
                         <span class="paper-tag">Time Series</span>
+                        <span class="paper-tag">Nonlinear Sys.</span>
                     </div>
                 </article>
                 <article class="paper-card thesis">
@@ -387,13 +390,14 @@
                     </div>
                     <div class="paper-tags">
                         <span class="paper-tag">Superconductivity</span>
-                        <span class="paper-tag">Instrumentation</span>
+                        <span class="paper-tag">Quantum Materials</span>
+                        <span class="paper-tag">Exp. Physics</span>
                     </div>
                 </article>
                 </div>
             </div>
             </div>
-            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'See less':'See more'">See more</button>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
 
         <section id="projects">
@@ -408,7 +412,7 @@
                         <h3>Inditex Data Hackathon — 14th / 706</h3>
                     </div>
                     <p>Product recommender system built for the Inditex Hackathon. Placed 14th out of 706 teams.</p>
-                    <div class="project-tags"><span>Recommender</span><span>Hackathon</span></div>
+                    <div class="project-tags"><span>Recsys</span><span>Collab. Filtering</span><span>Ranking</span></div>
                     <div class="paper-actions" style="margin-top:0.5rem">
                         <a href="https://github.com/arturofredes/hackathon-inditex-data-recommender" class="paper-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -424,25 +428,9 @@
                         <h3>Schneider Electric Hackathon</h3>
                     </div>
                     <p>Predictive model for determining which country will have the largest green energy surplus, built for the Schneider Electric Hackathon.</p>
-                    <div class="project-tags"><span>Green Energy</span><span>Hackathon</span></div>
+                    <div class="project-tags"><span>Time Series</span><span>Predictive Models</span><span>Energy Systems</span></div>
                     <div class="paper-actions" style="margin-top:0.5rem">
                         <a href="https://github.com/arturofredes/SchneiderHackathon_UBEcoFriends" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            Code
-                        </a>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <div class="project-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
-                        </div>
-                        <h3>Ethical AI RAG Chatbot</h3>
-                    </div>
-                    <p>RAG chatbot built end-to-end that answers questions about documents on Ethical AI.</p>
-                    <div class="project-tags"><span>RAG</span><span>NLP</span><span>LLMs</span></div>
-                    <div class="paper-actions" style="margin-top:0.5rem">
-                        <a href="https://github.com/arturofredes/Ethical_AI_RAG" class="paper-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
                             Code
                         </a>
@@ -452,12 +440,29 @@
                 <div class="project-card">
                     <div class="project-card-header">
                         <div class="project-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                        </div>
+                        <h3>Ethical AI RAG Chatbot</h3>
+                    </div>
+                    <p>RAG chatbot built end-to-end that answers questions about documents on Ethical AI.</p>
+                    <div class="project-tags"><span>RAG</span><span>IR</span><span>NLP</span><span>LLMs</span></div>
+                    <div class="paper-actions" style="margin-top:0.5rem">
+                        <a href="https://github.com/arturofredes/Ethical_AI_RAG" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Code
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon">
                             <img src="logos/ttsvg.svg" alt="TT" width="20" height="14">
                         </div>
                         <h3>TensorTonic Solutions</h3>
                     </div>
                     <p>Solutions to TensorTonic deep learning problems and challenges.</p>
-                    <div class="project-tags"><span>PyTorch</span><span>Deep Learning</span></div>
+                    <div class="project-tags"><span>DL</span><span>Optimization</span><span>PyTorch</span></div>
                     <div class="paper-actions" style="margin-top:0.5rem">
                         <a href="https://github.com/arturofredes/TensorTonic-Solutions" class="paper-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -473,7 +478,7 @@
                         <h3>LLMilo</h3>
                     </div>
                     <p>An LLM-powered Telegram bot that divides and tracks household chores — named after Milo, the family dog.</p>
-                    <div class="project-tags"><span>LLMs</span><span>Telegram</span><span>Python</span></div>
+                    <div class="project-tags"><span>LLMs</span><span>Agents</span><span>NLP</span></div>
                     <div class="paper-actions" style="margin-top:0.5rem">
                         <a href="https://github.com/arturofredes/LLMilo" class="paper-btn" target="_blank" rel="noopener">
                             <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
@@ -502,7 +507,7 @@
                 </div>
             </div>
             </div>
-            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'See less':'See more'">See more</button>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
     </main>
 

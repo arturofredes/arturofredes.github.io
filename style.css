@@ -267,6 +267,34 @@ section {
     font-family: var(--font-mono);
 }
 
+/* Language tags override: larger, neutral color, proper flags */
+.lang-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 0.8rem;
+    font-size: 0.8rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 100px;
+}
+
+.flag {
+    width: 28px;
+    height: 18px; /* rectangular ratio */
+    border-radius: 3px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.flag img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* prevents weird stretching */
+    display: block;
+}
+
 .section-title {
     font-size: 1.75rem;
     font-weight: 700;
@@ -292,7 +320,7 @@ section {
 }
 
 .section-content.expanded .extra {
-    display: revert;
+    display: contents;
 }
 
 .see-more {
