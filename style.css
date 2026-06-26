@@ -287,6 +287,45 @@ section {
     border-radius: 2px;
 }
 
+.section-content .extra {
+    display: none;
+}
+
+.section-content.expanded .extra {
+    display: revert;
+}
+
+.see-more {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
+    padding: 0.5rem 1rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.see-more:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.see-more svg {
+    width: 14px;
+    height: 14px;
+    transition: transform 0.3s;
+}
+
+.section-content.expanded ~ .see-more svg {
+    transform: rotate(180deg);
+}
+
 .timeline {
     position: relative;
     padding-left: 3.25rem;
