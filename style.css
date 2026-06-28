@@ -214,7 +214,7 @@ section {
 
 .hero-details {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr; /* make Research wider than Languages */
     gap: 1.5rem;
 }
 
@@ -257,7 +257,7 @@ section {
 }
 
 .tech-tags span {
-    font-size: 0.75rem;
+    font-size: 0.8rem; /* match language tags for visual balance */
     padding: 0.25rem 0.6rem;
     background: var(--accent-soft);
     border: 1px solid rgba(109, 197, 137, 0.15);
@@ -269,15 +269,47 @@ section {
 
 /* Language tags override: larger, neutral color, proper flags */
 .lang-tag {
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.35rem 0.8rem;
+    gap: 0.6rem;
+    padding: 0.4rem 0.75rem;
     font-size: 0.8rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    color: var(--text-muted);
+    background: var(--accent-soft);
+    border: 1px solid rgba(109, 197, 137, 0.15);
+    color: var(--accent);
     border-radius: 100px;
+    width: 100%; /* take full row */
+}
+
+/* Remove inner pill styling for language text */
+.lang-tag span {
+    background: none;
+    border: none;
+    padding: 0;
+    color: inherit;
+    font-family: var(--font);
+}
+
+/* Languages layout: one per line */
+.languages {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Circular cropped icons */
+.lang-icon {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.lang-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* center-cropped circle */
+    display: block;
 }
 
 .flag {

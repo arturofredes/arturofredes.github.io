@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arturo Fredes — Physicist &amp; Mathematician</title>
+    <title>Arturo Fredes — ML Engineer &amp; Researcher</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +14,11 @@
         <a href="#home" class="nav-logo">AF</a>
         <div class="nav-links">
             <a href="#home">Home</a>
+            <a href="#papers">Publications</a>
             <a href="#experience">Experience</a>
             <a href="#education">Education</a>
-            <a href="#papers">Papers</a>
             <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
         </div>
         <button class="nav-toggle" aria-label="Toggle menu">
             <span></span><span></span><span></span>
@@ -30,9 +31,11 @@
                 <div class="hero-text">
                     <p class="hero-greeting">Hello, I'm</p>
                     <h1>Arturo Fredes</h1>
-                    <p class="hero-subtitle">Physicist &amp; Mathematician</p>
+                    <p class="hero-subtitle"> ML Engineer &amp; Researcher</p>
                     <p class="hero-bio">
-                        ---
+                        I'm a physicist and mathematician working at the intersection of AI research and real-world application. My background spans both academia and industry, which has shaped my approach: rigorous in method, pragmatic in execution.
+My work focuses on machine learning and large language models, from evaluation and benchmarking to applied research and deployment. I'm particularly drawn to interpretability and causal reasoning, areas where I've contributed both in research settings and through published work.
+I believe the most valuable work happens where fundamental research meets practical impact, and that's the space I aim to occupy.
                     </p>
                     <div class="hero-links">
 
@@ -57,25 +60,130 @@
                 </div>
                 <div class="hero-details">
                     <div class="detail-card">
-                        <h3>Languages</h3>
+                        <h3>Research Interests</h3>
                         <div class="tech-tags">
-                            <span class="lang-tag">Spanish · Native</span>
-                            <span class="lang-tag">English · C2</span>
-                            <span class="lang-tag">German · B2</span>
+                            <span>LLMs</span><span>NLP</span><span>Foundation Models</span><span>Benchmarking</span><span>Explainability</span><span>Computer Vision</span>
+                            <span>Deep Learning</span>
                         </div>
                     </div>
+
                     <div class="detail-card">
-                        <h3>Tech Stack</h3>
-                        <div class="tech-tags">
-                            <span>ML Theory</span><span>Prob. Models</span><span>Optimization</span><span>Causal Inference</span>
-                            <span>DL</span><span>CNNs</span><span>CV</span><span>RNNs</span><span>NLP</span><span>LLMs</span>
-                            <span>Time Series</span><span>Recsys</span>
-                            <span>PyTorch</span><span>Python</span><span>HF</span><span>vLLM</span>
-                            <span>Docker</span><span>CI/CD</span><span>AWS</span><span>Azure</span>
+                        <h3>Languages</h3>
+                        <div class="tech-tags languages">
+                            <div class="lang-tag">
+                                <div class="lang-icon"><img src="logos/spanish.png" alt="Spanish"></div>
+                                <span>Spanish · Native</span>
+                            </div>
+                            <div class="lang-tag">
+                                <div class="lang-icon"><img src="logos/english.png" alt="English"></div>
+                                <span>English · C2</span>
+                            </div>
+                            <div class="lang-tag">
+                                <div class="lang-icon"><img src="logos/german.png" alt="German"></div>
+                                <span>German · B2</span>
+                            </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+        </section>
+
+
+        <section id="papers">
+            <h2 class="section-title">Publications &amp; Theses</h2>
+            <div class="section-content">
+            <div class="papers-grid">
+                <article class="paper-card">
+                    <div class="paper-venue">KDD 2024 Workshop · MSc Thesis — Universitat de Barcelona</div>
+                    <h3>Using LLMs for Explaining Sets of Counterfactual Examples to Final Users</h3>
+                    <p class="paper-authors">Arturo Fredes et al.</p>
+                    <p class="paper-abstract">
+                        Study of applications of LLMs in the business domain, focusing on using large language models
+                        to generate natural language explanations of sets of counterfactual examples, making causal
+                        inference results more interpretable for end users. This work was developed as a Master's thesis
+                        and later presented as a conference paper at KDD 2024 Workshop — Causal Inference and Machine Learning in Practice.
+                    </p>
+                    <div class="paper-actions">
+                        <a href="https://arxiv.org/abs/2408.15133" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                            Paper
+                        </a>
+                        <a href="https://diposit.ub.edu/items/f13c87d6-fa54-4229-8a98-f232b4457476" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+                            Thesis
+                        </a>
+                        <a href="https://causal-machine-learning.github.io/kdd2024-workshop/" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                            Workshop
+                        </a>
+                        <a href="https://github.com/arturofredes/LLM-4-CFs-Explanation" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Code
+                        </a>
+                    </div>
+                    <div class="paper-tags">
+                        <span class="paper-tag">Causal Inference</span>
+                        <span class="paper-tag">Counterfactuals</span>
+                        <span class="paper-tag">XAI</span>
+                        <span class="paper-tag">LLMs</span>
+                    </div>
+                </article>
+                <article class="paper-card thesis">
+                    <div class="paper-venue">Mathematics Thesis (Honours) — Universidad de Zaragoza</div>
+                    <h3>Recurrent Neural Networks for Time Series Forecasting in Complex Dynamical Systems and its Applications</h3>
+                    <p class="paper-authors">Arturo Fredes — Collaboration with Editorial Edelvives</p>
+                    <p class="paper-abstract">
+                        Application of recurrent neural networks (RNN/LSTM) to time series forecasting in complex
+                        dynamical systems, with practical applications developed in collaboration with Editorial
+                        Edelvives for demand forecasting.
+                    </p>
+                    <div class="paper-actions">
+                        <a href="https://zaguan.unizar.es/record/134455/" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                            Thesis
+                        </a>
+                        <a href="https://github.com/arturofredes/rnn-chaotic-timeseries-applications" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Code
+                        </a>
+                    </div>
+                    <div class="paper-tags">
+                        <span class="paper-tag">RNNs</span>
+                        <span class="paper-tag">Dynamical Systems</span>
+                        <span class="paper-tag">Time Series</span>
+                        <span class="paper-tag">Nonlinear Sys.</span>
+                    </div>
+                </article>
+                <article class="paper-card thesis">
+                    <div class="paper-venue">Physics Thesis — Universidad de Zaragoza</div>
+                    <h3>Design and Manufacture of Superconducting Radiation Detectors</h3>
+                    <p class="paper-authors">Arturo Fredes</p>
+                    <p class="paper-abstract">
+                        Design and manufacturing process of superconducting radiation detectors, exploring
+                        the physics of superconducting materials and their applications in particle detection.
+                    </p>
+                    <div class="paper-actions">
+                        <a href="https://zaguan.unizar.es/record/127252/" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                            Thesis
+                        </a>
+                        <a href="https://github.com/arturofredes/TES-design-fabrication" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Code
+                        </a>
+                    </div>
+                    <div class="paper-tags">
+                        <span class="paper-tag">Superconductivity</span>
+                        <span class="paper-tag">Quantum Materials</span>
+                        <span class="paper-tag">Exp. Physics</span>
+                    </div>
+                </article>
+                <div class="extra">
+                </div>
+            </div>
+            </div>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
 
         <section id="experience">
@@ -117,7 +225,6 @@
                                     <h3>Hypernova 60B 2605 — Artificial Analysis</h3>
                                 </div>
                                 <p>Collaboration with Artificial Analysis to add <a href="https://huggingface.co/MultiverseComputingCAI/Hypernova-60B-2605" target="_blank" rel="noopener">Hypernova 60B 2605</a> into their leaderboards, aligning evaluation methodologies.</p>
-                                <div class="project-tags"><span>Hypernova 2605</span><span>Leaderboards</span></div>
                                 <div class="paper-actions" style="margin-top:0.5rem">
                                     <a href="https://multiversecomputing.com/resources/hypernova-60b-the-world-s-most-efficient-model-in-its-category-according-to-artificial-analysis" class="paper-btn" target="_blank" rel="noopener">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
@@ -137,7 +244,6 @@
                                     <h3>Pulsar 16B — NVIDIA Validation</h3>
                                 </div>
                                 <p>Collaboration with NVIDIA to align evaluation methodologies. NVIDIA validated our internal evaluations of <a href="https://huggingface.co/MultiverseComputingCAI/Pulsar-16B-NVFP4" target="_blank" rel="noopener">Pulsar 16B</a>, the compressed version of <a href="https://huggingface.co/nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16" target="_blank" rel="noopener">Nemotron 3 Nano 30B A3B</a>.</p>
-                                <div class="project-tags"><span>Pulsar 16B</span><span>NVIDIA</span><span>Compression</span></div>
                                 <div class="paper-actions" style="margin-top:0.5rem">
                                     <a href="https://multiversecomputing.com/resources/pulsar-16b-built-by-multiverse-computing-validated-by-nvidia" class="paper-btn" target="_blank" rel="noopener">
                                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
@@ -148,7 +254,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="extra">
                 <div class="timeline-item">
                     <div class="timeline-marker"><img src="logos/inma.jpeg" alt="INMA"></div>
                     <div class="timeline-content">
@@ -165,7 +270,7 @@
                                     <h3>TEM Image Denoising</h3>
                                 </div>
                                 <p>Research and implementation of AI algorithms for denoising transmission electron microscopy images, using classical methods in the transform domain and CNNs with state-of-the-art computer vision techniques.</p>
-                                <div class="project-tags"><span>CNNs</span><span>OpenCV</span><span>Computer Vision</span></div>
+                                <div class="project-tags"><span>Computer Vision</span><span>CNNs</span><span>Unsupervised Learning</span><span> Fourier Transform</span></div>
                             </div>
                             <div class="project-card">
                                 <div class="project-card-header">
@@ -175,11 +280,12 @@
                                     <h3>On-Premise RAG System</h3>
                                 </div>
                                 <p>End-to-end development of an on-premise agent-based RAG system for scientific production management, including embedding model fine-tuning, retrieval and reasoning logic, and full UI implementation.</p>
-                                <div class="project-tags"><span>RAG</span><span>Agents</span><span>Fine-tuning</span></div>
+                                <div class="project-tags"><span>LLMs</span><span>RAG</span><span>Agents</span><span>Fine-tuning</span></div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="extra">
                 <div class="timeline-item">
                     <div class="timeline-marker"><img src="logos/universitat-de-barcelona-seeklogo.png" alt="UB"></div>
                     <div class="timeline-content">
@@ -304,104 +410,9 @@
             <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
 
-        <section id="papers">
-            <h2 class="section-title">Papers &amp; Thesis</h2>
-            <div class="section-content">
-            <div class="papers-grid">
-                <article class="paper-card">
-                    <div class="paper-venue">KDD 2024 Workshop · MSc Thesis — Universitat de Barcelona</div>
-                    <h3>Using LLMs for Explaining Sets of Counterfactual Examples to Final Users</h3>
-                    <p class="paper-authors">Arturo Fredes et al.</p>
-                    <p class="paper-abstract">
-                        Study of applications of LLMs in the business domain, focusing on using large language models
-                        to generate natural language explanations of sets of counterfactual examples, making causal
-                        inference results more interpretable for end users. This work was developed as a Master's thesis
-                        and later presented as a conference paper at KDD 2024 Workshop — Causal Inference and Machine Learning in Practice.
-                    </p>
-                    <div class="paper-actions">
-                        <a href="https://arxiv.org/abs/2408.15133" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-                            Paper
-                        </a>
-                        <a href="https://diposit.ub.edu/items/f13c87d6-fa54-4229-8a98-f232b4457476" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
-                            Thesis
-                        </a>
-                        <a href="https://causal-machine-learning.github.io/kdd2024-workshop/" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-                            Workshop
-                        </a>
-                        <a href="https://github.com/arturofredes/LLM-4-CFs-Explanation" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            Code
-                        </a>
-                    </div>
-                    <div class="paper-tags">
-                        <span class="paper-tag">Causal Inference</span>
-                        <span class="paper-tag">Counterfactuals</span>
-                        <span class="paper-tag">XAI</span>
-                        <span class="paper-tag">LLMs</span>
-                    </div>
-                </article>
-                <div class="extra">
-                <article class="paper-card thesis">
-                    <div class="paper-venue">Mathematics Thesis (Honours) — Universidad de Zaragoza</div>
-                    <h3>Recurrent Neural Networks for Time Series Forecasting in Complex Dynamical Systems and its Applications</h3>
-                    <p class="paper-authors">Arturo Fredes — Collaboration with Editorial Edelvives</p>
-                    <p class="paper-abstract">
-                        Application of recurrent neural networks (RNN/LSTM) to time series forecasting in complex
-                        dynamical systems, with practical applications developed in collaboration with Editorial
-                        Edelvives for demand forecasting.
-                    </p>
-                    <div class="paper-actions">
-                        <a href="https://zaguan.unizar.es/record/134455/" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-                            Thesis
-                        </a>
-                        <a href="https://github.com/arturofredes/rnn-chaotic-timeseries-applications" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            Code
-                        </a>
-                    </div>
-                    <div class="paper-tags">
-                        <span class="paper-tag">RNNs</span>
-                        <span class="paper-tag">Dynamical Systems</span>
-                        <span class="paper-tag">Time Series</span>
-                        <span class="paper-tag">Nonlinear Sys.</span>
-                    </div>
-                </article>
-                <article class="paper-card thesis">
-                    <div class="paper-venue">Physics Thesis — Universidad de Zaragoza</div>
-                    <h3>Design and Manufacture of Superconducting Radiation Detectors</h3>
-                    <p class="paper-authors">Arturo Fredes</p>
-                    <p class="paper-abstract">
-                        Design and manufacturing process of superconducting radiation detectors, exploring
-                        the physics of superconducting materials and their applications in particle detection.
-                    </p>
-                    <div class="paper-actions">
-                        <a href="https://zaguan.unizar.es/record/127252/" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
-                            Thesis
-                        </a>
-                        <a href="https://github.com/arturofredes/TES-design-fabrication" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            Code
-                        </a>
-                    </div>
-                    <div class="paper-tags">
-                        <span class="paper-tag">Superconductivity</span>
-                        <span class="paper-tag">Quantum Materials</span>
-                        <span class="paper-tag">Exp. Physics</span>
-                    </div>
-                </article>
-                </div>
-            </div>
-            </div>
-            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
-        </section>
 
         <section id="projects">
-            <h2 class="section-title">Personal Projects &amp; Achievements</h2>
+            <h2 class="section-title">Personal Projects</h2>
             <div class="section-content">
             <div class="projects-grid">
                 <div class="project-card">
@@ -437,6 +448,23 @@
                     </div>
                 </div>
                 <div class="extra">
+
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75Z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306"/></svg>
+                        </div>
+                        <h3>LLMilo</h3>
+                    </div>
+                    <p>An LLM-powered Telegram bot that divides and tracks household chores — named after Milo, the family dog.</p>
+                    <div class="project-tags"><span>LLMs</span><span>Agents</span><span>NLP</span></div>
+                    <div class="paper-actions" style="margin-top:0.5rem">
+                        <a href="https://github.com/arturofredes/LLMilo" class="paper-btn" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                            Code
+                        </a>
+                    </div>
+                </div>
                 <div class="project-card">
                     <div class="project-card-header">
                         <div class="project-icon">
@@ -470,49 +498,77 @@
                         </a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-card-header">
-                        <div class="project-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 5.172C10 3.782 8.423 2.679 6.5 3c-2.823.47-4.113 6.006-4 7 .08.703 1.725 1.722 3.656 1 1.261-.472 1.96-1.45 2.344-2.5"/><path d="M14.267 5.172c0-1.39 1.577-2.493 3.5-2.172 2.823.47 4.113 6.006 4 7-.08.703-1.725 1.722-3.656 1-1.261-.472-1.855-1.45-2.239-2.5"/><path d="M8 14v.5"/><path d="M16 14v.5"/><path d="M11.25 16.25h1.5L12 17l-.75-.75Z"/><path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444c0-1.061-.162-2.2-.493-3.309m-9.243-6.082A8.801 8.801 0 0 1 12 5c.78 0 1.5.108 2.161.306"/></svg>
-                        </div>
-                        <h3>LLMilo</h3>
-                    </div>
-                    <p>An LLM-powered Telegram bot that divides and tracks household chores — named after Milo, the family dog.</p>
-                    <div class="project-tags"><span>LLMs</span><span>Agents</span><span>NLP</span></div>
-                    <div class="paper-actions" style="margin-top:0.5rem">
-                        <a href="https://github.com/arturofredes/LLMilo" class="paper-btn" target="_blank" rel="noopener">
-                            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-                            Code
-                        </a>
-                    </div>
-                </div>
-                <div class="project-card achievement">
-                    <div class="project-card-header">
-                        <div class="project-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5C7 4 9 8 12 8s5-4 7.5-4a2.5 2.5 0 0 1 0 5H18"/><path d="M12 2v6"/><path d="M6 9v10a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V9"/></svg>
-                        </div>
-                        <h3>Finalist — Talento Joven Arag&oacute;n 2022</h3>
-                    </div>
-                    <p>Three-day workshop organized by leading companies in Arag&oacute;n to identify young talent. Awarded with an internship at Editorial Edelvives.</p>
-                </div>
-                <div class="project-card achievement">
-                    <div class="project-card-header">
-                        <div class="project-icon">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/></svg>
-                        </div>
-                        <h3>Faculty Sports Coordinator — Unizar</h3>
-                    </div>
-                    <p>Sporting events organization, social media administration, and management of the different sport teams of the Faculty of Sciences (2020–2022).</p>
-                </div>
+               
                 </div>
             </div>
+            </div>
+            <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
+        </section>
+
+        <section id="achievements">
+            <h2 class="section-title">Other Achievements</h2>
+            <div class="section-content">
+                <div class="projects-grid">
+                    <div class="project-card achievement">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <!-- trophy -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M6 4h12v3a6 6 0 0 1-12 0V4z"/><path d="M4 6h2a4 4 0 0 1-4 4V6z"/><path d="M20 6h-2a4 4 0 0 0 4 4V6z"/></svg>
+                            </div>
+                            <h3>Winner — Talento Joven Aragón (2022)</h3>
+                        </div>
+                        <p>Three-day workshop organized by leading companies in Aragón to identify young talent. Awarded an internship at Editorial Edelvives.</p>
+                    </div>
+
+                    <div class="project-card achievement">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <img src="logos/coordination.svg" alt="coordination" style="width:20px;height:20px;filter:invert(73%) sepia(19%) saturate(486%) hue-rotate(86deg) brightness(95%) contrast(90%);">
+                            </div>
+                            <h3>Faculty of Sciences Sports Coordinator — Unizar (2020–2022)</h3>
+                        </div>
+                        <p>Sporting events organization, social media administration, and management of faculty sports teams.</p>
+                    </div>
+
+                    <div class="extra">
+                    <div class="project-card achievement">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <img src="logos/soccer-ball.svg" alt="soccer" style="width:20px;height:20px;">
+                            </div>
+                            <h3>Faculty of Sciences Football Captain (2018–2022)</h3>
+                        </div>
+                    </div>
+
+                    <div class="project-card achievement">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <!-- chemistry flask -->
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 3h6"/><path d="M10 3v6l-5 8a3 3 0 0 0 2.6 4.5h8.8A3 3 0 0 0 19 17l-5-8V3"/><path d="M8 15h8"/></svg>
+                            </div>
+                            <h3>3rd place — Aragón Chemistry Olympics (2018)</h3>
+                        </div>
+                        <p>Participation in national finals.</p>
+                    </div>
+
+                    <div class="project-card achievement">
+                        <div class="project-card-header">
+                            <div class="project-icon">
+                                <img src="logos/basketball.svg" alt="basketball" style="width:20px;height:20px;filter:invert(73%) sepia(19%) saturate(486%) hue-rotate(86deg) brightness(95%) contrast(90%);">
+                            </div>
+                            <h3>Organizer — 3x3xGambia Charity Tournament (2018)</h3>
+                        </div>
+                        <p>In collaboration with Playing ONG.</p>
+                    </div>
+                    </div>
+                </div>
             </div>
             <button class="see-more" onclick="this.previousElementSibling.classList.toggle('expanded');this.textContent=this.previousElementSibling.classList.contains('expanded')?'Show less':'Show more'">Show more</button>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 Arturo Fredes. Built with curiosity.</p>
+        <p>&copy; 2026 Arturo Fredes. Vibe coded with GLM 5.1 and opencode</p>
     </footer>
 
     <script src="script.js"></script>
